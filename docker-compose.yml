@@ -26,6 +26,8 @@ services:
     networks:
         default:
         internal:
+        frp_connect:
+          ipv4_address: 172.1.0.5
 
   nginx:
     image: nginx:stable
